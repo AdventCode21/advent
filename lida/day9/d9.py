@@ -1,8 +1,6 @@
 import os.path
 import time
 
-from collections import defaultdict
-
 
 def find_neighbors(x, y, rows, cols):
     return [
