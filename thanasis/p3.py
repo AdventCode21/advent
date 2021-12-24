@@ -9,6 +9,7 @@ def parse_input():
     return oxygen, co2
 
 def findMostCommonDigit(n):
+    # return str(int(sum(list(map(int, n))) >= len(n)/2))
     ones, zeros = 0, 0
     for i in n:
         if i == '0':
